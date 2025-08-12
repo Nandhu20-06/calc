@@ -14,7 +14,7 @@ public class AritmeticController
 	@GetMapping("/add/{A}/{B}")
 	public String add(@PathVariable("A") int a, @PathVariable("B") int b)
 	{
-		return "Addition of two numbers = " + (a + b);
+		return "" + (a + b);
 	}
 
 }
